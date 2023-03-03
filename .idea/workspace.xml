@@ -1,64 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Data Structure and Algorithms:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbd6ed7a-3e98-4739-83ab-5c58b715fba0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structure and Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/BackTracking/GraphColoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/BackTracking/HamiltonianCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/BackTracking/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/BackTracking/SubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/BackTracking/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DivideAndConquer/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DivideAndConquer/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DivideAndConquer/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DivideAndConquer/StrassensMatrixMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DynamicProgramming/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DynamicProgramming/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DynamicProgramming/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DynamicProgramming/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/DynamicProgramming/MatrixChainMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Graph/BreadthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Graph/DepthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Graph/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Graph/FloydWarshall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Graph/Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Graph/Prim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Greedy/FractionalKnapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Greedy/HuffmanCoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Greedy/JobScheduling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Greedy/MinimumSpanningTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Greedy/ShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Searching/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Searching/FibonacciSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Searching/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Sorting/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Algorithms/Sorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Graph/DirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Graph/UnDirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Graph/UnWeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Graph/WeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Queues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    <list default="true" id="cbd6ed7a-3e98-4739-83ab-5c58b715fba0" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/AVLTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2MSv49Gl4razaKCFQdgiioCQxto" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -87,17 +51,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructure.Array" />
+      <module name="Data Structure and Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructure.LinkedList" />
+      <module name="Data Structure and Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Data Structure and Algorithms" />
@@ -111,9 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Data Structure and Algorithms.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Data_Structure_and_Algorithms_jar/Data Structure and Algorithms.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="JAR Application.Data Structure and Algorithms.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +123,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677773605880</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1677777331100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677777331100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
