@@ -1,13 +1,13 @@
 package com.company.DataStructure;
 
-public class Stack {
-    int[] stack;
-    int size;
+public class Stack<T> {
+    private final T[] stack;
+    private final int size;
     int top;
     public Stack(int s)
     {
         this.size = s;
-        stack = new int[s];
+        stack = (T[]) new Object[s];
         top = -1;
     }
     public boolean isFull()
@@ -18,7 +18,7 @@ public class Stack {
     {
         return top == -1;
     }
-    public void push(int data)
+    public void push(T data)
     {
         if (isFull())
             System.out.println("Stack Overflow");
@@ -32,7 +32,7 @@ public class Stack {
         else
             top--;
     }
-    public int peek()
+    public T peek()
     {
         return stack[top];
     }
@@ -42,8 +42,5 @@ public class Stack {
         {
             System.out.print(stack[i]+" ");
         }
-    }
-    public static void main(String[] args) {
-        Stack sc = new Stack(5);
     }
 }

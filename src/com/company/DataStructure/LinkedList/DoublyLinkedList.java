@@ -1,22 +1,22 @@
 package com.company.DataStructure.LinkedList;
 
-class DoublyLinkedList {
-    Node head;
+class DoublyLinkedList<T> {
+    private Node<T> head;
 
-    class Node {
-        int data;
-        Node next;
-        Node prev;
+    private static class Node<T> {
+        private final T data;
+        private Node<T> next;
+        private Node<T> prev;
 
-        Node(int data) {
+        Node(T data) {
             this.data = data;
             this.next = null;
             this.prev = null;
         }
     }
 
-    public void InsertFirst(int data) {
-        Node curr = new Node(data);
+    public void InsertFirst(T data) {
+        Node<T> curr = new Node<>(data);
 
         curr.next = head;
         curr.prev = null;
@@ -25,12 +25,12 @@ class DoublyLinkedList {
         head = curr;
     }
 
-    public void InsertLast(int data) {
-        Node curr = new Node(data);
+    public void InsertLast(T data) {
+        Node<T> curr = new Node<>(data);
         if (head == null)
             head = curr;
         else {
-            Node temp = head;
+            Node<T> temp = head;
             while (temp.next != null)
                 temp = temp.next;
             temp.next = curr;
@@ -42,7 +42,7 @@ class DoublyLinkedList {
         if (head == null)
             return false;
         else {
-            Node curr = head;
+            Node<T> curr = head;
             curr = curr.next;
             head = curr;
             return true;
@@ -53,16 +53,15 @@ class DoublyLinkedList {
         if (head == null)
             return false;
         else {
-            Node curr = head;
+            Node<T> curr = head;
             while (curr.next.next != null)
                 curr = curr.next;
             curr.next = null;
             return true;
         }
     }
-
     public void print() {
-        Node curr = head;
+        Node<T> curr = head;
         while (curr != null) {
             System.out.print(curr.data + " ");
             curr = curr.next;

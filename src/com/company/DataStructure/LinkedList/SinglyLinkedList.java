@@ -1,31 +1,31 @@
 package com.company.DataStructure.LinkedList;
-public class SinglyLinkedList {
-    Node head;
-    class Node
+public class SinglyLinkedList<T> {
+    private Node<T> head;
+    static class Node<T>
     {
-        int data;
-        Node next;
-        Node(int data)
+        private final T data;
+        private Node<T> next;
+        Node(T data)
         {
             this.data = data;
             this.next = null;
         }
     }
-    public void InsertFirst(int data)
+    public void InsertFront(T data)
     {
-        Node curr = new Node(data);
+        Node<T> curr = new Node<>(data);
         curr.next = head;
         head = curr;
     }
-    public void InsertLast(int data)
+    public void InsertTail(T data)
     {
-        Node curr = new Node(data);
+        Node<T> curr = new Node<>(data);
         if(head == null)
         {
             head = curr;
         }
         else {
-            Node temp = head;
+            Node<T> temp = head;
             while (temp.next != null) {
                 temp = temp.next;
             }
@@ -36,7 +36,7 @@ public class SinglyLinkedList {
     {
         if(head != null)
         {
-            Node curr = head;
+            Node<T> curr = head;
             curr = curr.next;
             head = curr;
             return true;
@@ -49,7 +49,7 @@ public class SinglyLinkedList {
             return false;
         else
         {
-            Node curr = head;
+            Node<T> curr = head;
             while(curr.next.next != null){
                 curr = curr.next;
             }
@@ -59,14 +59,11 @@ public class SinglyLinkedList {
     }
     public void print()
     {
-        Node curr = head;
+        Node<T> curr = head;
         while(curr != null)
         {
             System.out.print(curr.data+" ");
             curr = curr.next;
         }
-    }
-    public  int peek() {
-        return head.data;
     }
 }

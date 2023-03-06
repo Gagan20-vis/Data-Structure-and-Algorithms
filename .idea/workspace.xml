@@ -9,16 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbd6ed7a-3e98-4739-83ab-5c58b715fba0" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/SinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/temp.java" afterDir="false" />
+    <list default="true" id="cbd6ed7a-3e98-4739-83ab-5c58b715fba0" name="Changes" comment="Third Commit">
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/CircularDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/CircularLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructure/LinkedList/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructure/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/AVLTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructure/Tree/BinaryTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +38,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2MSv49Gl4razaKCFQdgiioCQxto" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,13 +58,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CircularLinkedList">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.DataStructure.Array" />
       <module name="Data Structure and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructure.*" />
+          <option name="PATTERN" value="com.company.DataStructure.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructure.LinkedList.CircularLinkedList" />
+      <module name="Data Structure and Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DataStructure.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +90,7 @@
       <module name="Data Structure and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructure.*" />
+          <option name="PATTERN" value="com.company.DataStructure.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircularLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.Array" />
@@ -130,11 +141,20 @@
       <option name="project" value="LOCAL" />
       <updated>1677777331100</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Commit">
+      <created>1677832262912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677832262912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Second Commit" />
+    <MESSAGE value="Third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
   </component>
 </project>
